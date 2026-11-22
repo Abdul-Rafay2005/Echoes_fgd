@@ -1,0 +1,954 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 34448)
+VBCSCompiler prewarm took 9.86 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-HP doesn't exist
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 16095 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-21T12:10:16Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 18792)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-HP, press Ctrl-C to exit.
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject
+-executeMethod
+Echoes.Editor.BuildGame.Build
+-logFile
+D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\tools\logs\build.log
+Successfully changed project path to: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject
+D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [35224]  Target information:
+
+Player connection [35224]  * "[IP] 172.22.64.1 [Port] 55504 [Flags] 2 [Guid] 1938043710 [EditorId] 1938043710 [Version] 1048832 [Id] WindowsEditor(7,Nabeel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35224]  * "[IP] 10.57.162.30 [Port] 55504 [Flags] 2 [Guid] 1938043710 [EditorId] 1938043710 [Version] 1048832 [Id] WindowsEditor(7,Nabeel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2026-11-21T12:10:16.895607Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18792, path: "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              543d5eae27ee46adb6516d10209d94ee
+  Correlation Id:          fb70f60b503b842742d60857e1e7312b
+  External correlation Id: 7546032841468079786
+  Machine Id:              bljAbZVAMhijx11WXUmTr87F+o4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP" (connect: 0.57s, validation: 0.24s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-notifications" at "2026-11-21T12:10:17.2377262Z"
+[Licensing::Module] Connected to LicensingClient (PId: 18792, launch time: 0.00, total connection time: 0.91s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-GFYD-VGAY-UQ75-2AG9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T13:10:02Z
+[Licensing::Module] License group:
+  Id: 18968488014415-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.04
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-GFYD-VGAY-UQ75-2AG9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T13:10:02Z
+[Licensing::Module] License group:
+  Id: 18968488014415-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 1.02s
+Player connection [35224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-35228" after 0.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-GFYD-VGAY-UQ75-2AG9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T13:10:02Z
+[Licensing::Module] License group:
+  Id: 18968488014415-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: eedd52602b59e3c71d7cdf87070982d7
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:          Intel
+    VRAM:            8047 MB
+    App VRAM Budget: 7389 MB
+    Driver:          31.0.101.3889
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003418 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 2649ms
+	BeginReloadAssembly (338ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (762ms)
+		LoadAssemblies (308ms)
+		TypeCache.Refresh (484ms)
+			TypeCache.ScanAssembly (455ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1356ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (481ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-GFYD-VGAY-UQ75-2AG9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-28T13:10:15Z
+[Licensing::Module] License group:
+  Id: 18968488014415-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 43 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.rider@3.0.38 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.xr)
+    com.unity.ugui@2.6.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.ext.nunit@2.1.0 (location: D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\UnityProject\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s500ms
+[257/288    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.40 seconds), 1 items updated, 288 evaluated
+AssetDatabase: script compilation time: 1.444195s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.259 seconds
+Domain Reload Profiling: 2264ms
+	BeginReloadAssembly (486ms)
+		DisableScriptedObjects (53ms)
+		CreateAndSetChildDomain (164ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (329ms)
+		TypeCache.Refresh (29ms)
+			TypeCache.ScanAssembly (21ms)
+		AnalyzeDomain (18ms)
+			BuildScriptInfoCaches (14ms)
+	FinalizeReload (1262ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (26ms)
+		AwakeInstancesAfterBackupRestoration (79ms)
+Starting new worker id: 0 with log in D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=3147a6d018864a746a24811a457769ce): Total: 4.211 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1571 ms
+		Asset DB Callback time: managed=39 ms, native=24 ms
+		Scripting: domain reloads=1, domain reload time=1094 ms, compile time=1451 ms, other=29 ms
+		Project Asset Count: scripts=272, non-scripts=227
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 27.940ms
+	ApplyChangesToAssetFolders: 0.952ms
+	Scan: 88.445ms
+	Collect global state as custom dependencies: 19.216ms
+	CategorizeScriptCompilationAssets: 10.611ms
+	ProcessAssetsWithTransientArtifactChanges: 32.836ms
+	CategorizeAssets: 5.979ms
+	CompileScripts: 1451.191ms
+	ImportOutOfDateAssets: 1317.166ms (1263.732ms without children)
+		UnloadImportedAssets: 0.145ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.148ms
+		ImportSchedulerStart: 53.134ms
+	PostProcessAllAssets: 39.299ms
+		MonoPostProcessAllAssets: 39.219ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 16.530ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.997ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.559ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.545ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.411ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.333ms
+			SyncVS.PostprocessSyncProject 0.195ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.174ms
+	UnloadStreamsBegin: 2.181ms
+	Untracked: 1207.115ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 1.043ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Echoes of Eternity
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 905 unused Assets / (0.8 MB). Loaded Objects now: 1631.
+Memory consumption went from 232.3 MB to 231.5 MB.
+Total: 9.931300 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.052200 ms MarkObjects: 8.623500 ms  DeleteObjects: 0.605200 ms)
+
+[EchoesBuild] Building StandaloneWindows64 -> D:\Nabeel data\EchoesOfEternity_20261121_160903_344691\Builds\Windows\EchoesOfEternity.exe
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Echoes.Editor.BuildGame:BuildInternal () (at Assets/Editor/EchoesBuild.cs:88)
+Echoes.Editor.BuildGame:Build () (at Assets/Editor/EchoesBuild.cs:30)
+
+(Filename: Assets/Editor/EchoesBuild.cs Line: 88)
+
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aESkipCompile.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+ExitCode: 0 Duration: 0s399ms
+[2/3        0s] BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json
+*** Tundra build success (0.37 seconds), 1 items updated, 3 evaluated
+Asset Pipeline Refresh (id=e5dcaff8ecfad8142b340bd4b0ab9c85): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Recompiling scripts for player build.
+BuildPlayer: start building target 19
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aP.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+Total cache size 268375576
+Total cache size after purge 268375576, took 00:00:00.6413016
+ExitCode: 0 Duration: 1s644ms
+[115/131    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[119/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[120/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[121/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb
+[122/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb
+[123/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll
+[124/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+[125/131    0s] Csc Library/Bee/artifacts/1900b0aP.dag/Echoes.Runtime.dll (+2 others)
+[126/131    0s] ILPostProcess Library/Bee/artifacts/1900b0aP.dag/post-processed/Echoes.Runtime.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aP.dag/Echoes.Runtime.dll, with 135 defines and 219 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[127/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Echoes.Runtime.pdb
+[128/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Echoes.Runtime.dll
+[130/131    0s] BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)
+*** Tundra build success (1.61 seconds), 12 items updated, 131 evaluated
+Not rebuilding Data files -- no changes
+
+
+Mono dependencies included in the build
+Dependency assembly - System.Windows.Forms.dll
+Dependency assembly - System.IO.dll
+Dependency assembly - System.Collections.NonGeneric.dll
+Dependency assembly - System.Net.Ping.dll
+Dependency assembly - I18N.Other.dll
+Dependency assembly - System.Net.dll
+Dependency assembly - System.Workflow.Activities.dll
+Dependency assembly - System.Buffers.dll
+Dependency assembly - System.Net.HttpListener.dll
+Dependency assembly - Microsoft.Web.Infrastructure.dll
+Dependency assembly - System.ServiceModel.NetTcp.dll
+Dependency assembly - Unity.InternalAPIEngineBridge.004.dll
+Dependency assembly - Mono.Tasklets.dll
+Dependency assembly - System.Workflow.Runtime.dll
+Dependency assembly - System.Net.AuthenticationManager.dll
+Dependency assembly - Echoes.Runtime.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Diagnostics.Debug.dll
+Dependency assembly - cscompmgd.dll
+Dependency assembly - Mono.Security.Win32.dll
+Dependency assembly - Mono.Data.Sqlite.dll
+Dependency assembly - System.Data.DataSetExtensions.dll
+Dependency assembly - System.Net.NameResolution.dll
+Dependency assembly - Mono.WebBrowser.dll
+Dependency assembly - System.Drawing.Design.dll
+Dependency assembly - System.Net.Http.Formatting.dll
+Dependency assembly - System.IO.FileSystem.DriveInfo.dll
+Dependency assembly - System.Dynamic.Runtime.dll
+Dependency assembly - System.IO.Pipes.dll
+Dependency assembly - System.Web.DynamicData.dll
+Dependency assembly - System.Web.Mvc.dll
+Dependency assembly - System.Reflection.Extensions.dll
+Dependency assembly - System.Dynamic.dll
+Dependency assembly - System.Security.AccessControl.dll
+Dependency assembly - System.Threading.AccessControl.dll
+Dependency assembly - Microsoft.Extensions.Logging.Abstractions.dll
+Dependency assembly - I18N.Rare.dll
+Dependency assembly - System.Web.Extensions.dll
+Dependency assembly - System.ObjectModel.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - Mono.Messaging.RabbitMQ.dll
+Dependency assembly - WebMatrix.Data.dll
+Dependency assembly - System.Reactive.Runtime.Remoting.dll
+Dependency assembly - System.Xml.Serialization.dll
+Dependency assembly - System.IO.FileSystem.Watcher.dll
+Dependency assembly - Microsoft.Win32.Registry.AccessControl.dll
+Dependency assembly - System.Reactive.Windows.Forms.dll
+Dependency assembly - System.IO.FileSystem.Primitives.dll
+Dependency assembly - System.IO.MemoryMappedFiles.dll
+Dependency assembly - System.IO.FileSystem.dll
+Dependency assembly - System.Data.Services.dll
+Dependency assembly - System.IO.FileSystem.AccessControl.dll
+Dependency assembly - System.Resources.ResourceManager.dll
+Dependency assembly - System.Text.Encoding.dll
+Dependency assembly - System.Security.Cryptography.Primitives.dll
+Dependency assembly - System.Web.Routing.dll
+Dependency assembly - System.Messaging.dll
+Dependency assembly - System.Reflection.Emit.Lightweight.dll
+Dependency assembly - System.ServiceModel.Discovery.dll
+Dependency assembly - System.Web.Abstractions.dll
+Dependency assembly - SystemWebTestShim.dll
+Dependency assembly - System.Reflection.Primitives.dll
+Dependency assembly - Mono.Data.Tds.dll
+Dependency assembly - Microsoft.Win32.Primitives.dll
+Dependency assembly - PEAPI.dll
+Dependency assembly - Mono.Messaging.dll
+Dependency assembly - System.Runtime.Serialization.Primitives.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.Security.Cryptography.Encryption.dll
+Dependency assembly - System.Resources.Reader.dll
+Dependency assembly - System.Runtime.DurableInstancing.dll
+Dependency assembly - System.ValueTuple.dll
+Dependency assembly - System.DirectoryServices.Protocols.dll
+Dependency assembly - Microsoft.Win32.Registry.dll
+Dependency assembly - System.Security.Cryptography.DeriveBytes.dll
+Dependency assembly - System.Security.Cryptography.Hashing.dll
+Dependency assembly - System.Security.Cryptography.X509Certificates.dll
+Dependency assembly - System.Security.dll
+Dependency assembly - System.Json.dll
+Dependency assembly - System.Reactive.Observable.Aliases.dll
+Dependency assembly - System.Diagnostics.Tracing.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.Resources.Writer.dll
+Dependency assembly - System.Data.Common.dll
+Dependency assembly - System.Threading.Tasks.dll
+Dependency assembly - System.Security.Cryptography.Pkcs.dll
+Dependency assembly - System.Numerics.Vectors.dll
+Dependency assembly - System.Xml.XmlDocument.dll
+Dependency assembly - System.Console.dll
+Dependency assembly - System.Net.ServicePoint.dll
+Dependency assembly - Mono.XBuild.Tasks.dll
+Dependency assembly - I18N.West.dll
+Dependency assembly - System.Reactive.Debugger.dll
+Dependency assembly - System.ComponentModel.TypeConverter.dll
+Dependency assembly - System.ServiceModel.Primitives.dll
+Dependency assembly - System.Security.Cryptography.Encryption.Aes.dll
+Dependency assembly - System.Reactive.Interfaces.dll
+Dependency assembly - System.Runtime.Caching.dll
+Dependency assembly - System.IO.UnmanagedMemoryStream.dll
+Dependency assembly - System.Security.Cryptography.Csp.dll
+Dependency assembly - System.Web.dll
+Dependency assembly - System.Web.Mobile.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - System.Diagnostics.Contracts.dll
+Dependency assembly - System.Diagnostics.TextWriterTraceListener.dll
+Dependency assembly - System.Runtime.Numerics.dll
+Dependency assembly - Mono.C5.dll
+Dependency assembly - System.Xml.ReaderWriter.dll
+Dependency assembly - Microsoft.Build.Utilities.v4.0.dll
+Dependency assembly - Microsoft.Build.Tasks.v4.0.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.ServiceProcess.ServiceController.dll
+Dependency assembly - System.Reactive.Experimental.dll
+Dependency assembly - Microsoft.Build.Engine.dll
+Dependency assembly - System.Linq.Expressions.dll
+Dependency assembly - System.Security.Cryptography.OpenSsl.dll
+Dependency assembly - System.Reactive.Core.dll
+Dependency assembly - System.Security.Principal.dll
+Dependency assembly - System.Security.Principal.Windows.dll
+Dependency assembly - System.Memory.dll
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Design.dll
+Dependency assembly - ICSharpCode.SharpZipLib.dll
+Dependency assembly - System.Security.Cryptography.Cng.dll
+Dependency assembly - System.Collections.dll
+Dependency assembly - System.ServiceModel.Http.dll
+Dependency assembly - System.Security.Cryptography.ProtectedData.dll
+Dependency assembly - System.ComponentModel.Annotations.dll
+Dependency assembly - System.Net.Mail.dll
+Dependency assembly - Mono.Btls.Interface.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Data.OracleClient.dll
+Dependency assembly - I18N.MidEast.dll
+Dependency assembly - System.ServiceModel.Activation.dll
+Dependency assembly - System.Text.Json.dll
+Dependency assembly - System.ComponentModel.dll
+Dependency assembly - CustomMarshalers.dll
+Dependency assembly - System.Data.Entity.dll
+Dependency assembly - System.Diagnostics.Tools.dll
+Dependency assembly - System.Net.WebSockets.dll
+Dependency assembly - System.Runtime.dll
+Dependency assembly - System.ServiceModel.Web.dll
+Dependency assembly - System.Text.Encodings.Web.dll
+Dependency assembly - System.Runtime.InteropServices.WindowsRuntime.dll
+Dependency assembly - System.Net.Primitives.dll
+Dependency assembly - System.Reflection.TypeExtensions.dll
+Dependency assembly - System.Text.Encoding.CodePages.dll
+Dependency assembly - System.Collections.Immutable.dll
+Dependency assembly - Mono.Posix.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Web.Services.dll
+Dependency assembly - System.Net.Cache.dll
+Dependency assembly - System.Web.WebPages.dll
+Dependency assembly - System.Reactive.Linq.dll
+Dependency assembly - System.Net.NetworkInformation.dll
+Dependency assembly - System.Diagnostics.Process.dll
+Dependency assembly - System.Security.Cryptography.RSA.dll
+Dependency assembly - Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Dependency assembly - System.Threading.ThreadPool.dll
+Dependency assembly - System.Drawing.Primitives.dll
+Dependency assembly - Accessibility.dll
+Dependency assembly - System.Data.Linq.dll
+Dependency assembly - System.Deployment.dll
+Dependency assembly - System.Reflection.Emit.dll
+Dependency assembly - System.Threading.Tasks.Extensions.dll
+Dependency assembly - System.Workflow.ComponentModel.dll
+Dependency assembly - System.Runtime.Extensions.dll
+Dependency assembly - System.Reactive.PlatformServices.dll
+Dependency assembly - Mono.Cairo.dll
+Dependency assembly - System.Linq.dll
+Dependency assembly - System.IO.IsolatedStorage.dll
+Dependency assembly - Mono.Management.dll
+Dependency assembly - System.Runtime.CompilerServices.Unsafe.dll
+Dependency assembly - System.Web.Http.dll
+Dependency assembly - System.Runtime.Loader.dll
+Dependency assembly - System.Text.Encoding.Extensions.dll
+Dependency assembly - Microsoft.Build.Framework.dll
+Dependency assembly - System.Net.Http.Rtc.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - Mono.Simd.dll
+Dependency assembly - System.Security.Cryptography.Encoding.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDsa.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.ServiceModel.Routing.dll
+Dependency assembly - System.Web.WebPages.Razor.dll
+Dependency assembly - System.Resources.ReaderWriter.dll
+Dependency assembly - System.Reflection.DispatchProxy.dll
+Dependency assembly - Mono.CompilerServices.SymbolWriter.dll
+Dependency assembly - System.ServiceModel.dll
+Dependency assembly - Mono.CSharp.dll
+Dependency assembly - System.Xml.XDocument.dll
+Dependency assembly - System.Windows.Forms.DataVisualization.dll
+Dependency assembly - System.Reflection.Metadata.dll
+Dependency assembly - System.ServiceProcess.dll
+Dependency assembly - I18N.dll
+Dependency assembly - System.Collections.Concurrent.dll
+Dependency assembly - System.Web.Extensions.Design.dll
+Dependency assembly - System.Runtime.InteropServices.RuntimeInformation.dll
+Dependency assembly - System.Threading.Tasks.Dataflow.dll
+Dependency assembly - Mono.Options.dll
+Dependency assembly - System.Web.ApplicationServices.dll
+Dependency assembly - System.Globalization.Calendars.dll
+Dependency assembly - System.Web.WebPages.Deployment.dll
+Dependency assembly - System.Diagnostics.FileVersionInfo.dll
+Dependency assembly - System.Xml.XPath.dll
+Dependency assembly - RabbitMQ.Client.dll
+Dependency assembly - Microsoft.Bcl.AsyncInterfaces.dll
+Dependency assembly - System.Net.Utilities.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - System.Collections.Specialized.dll
+Dependency assembly - System.Net.WebHeaderCollection.dll
+Dependency assembly - System.Security.SecureString.dll
+Dependency assembly - System.dll
+Dependency assembly - System.Xml.XPath.XmlDocument.dll
+Dependency assembly - System.Management.dll
+Dependency assembly - System.Runtime.Remoting.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Diagnostics.TraceEvent.dll
+Dependency assembly - System.Runtime.Serialization.Json.dll
+Dependency assembly - System.Reflection.Emit.ILGeneration.dll
+Dependency assembly - System.Xaml.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Xml.Xsl.Primitives.dll
+Dependency assembly - System.Web.Http.SelfHost.dll
+Dependency assembly - System.Security.Claims.dll
+Dependency assembly - System.Security.Cryptography.Hashing.Algorithms.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.ComponentModel.EventBasedAsync.dll
+Dependency assembly - System.Diagnostics.TraceSource.dll
+Dependency assembly - System.IO.Compression.ZipFile.dll
+Dependency assembly - System.Data.Services.Client.dll
+Dependency assembly - Mono.Http.dll
+Dependency assembly - System.Web.Http.WebHost.dll
+Dependency assembly - System.Threading.Overlapped.dll
+Dependency assembly - Mono.Profiler.Log.dll
+Dependency assembly - System.Reflection.dll
+Dependency assembly - Commons.Xml.Relaxng.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.Linq.Parallel.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - I18N.CJK.dll
+Dependency assembly - System.Threading.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.Soap.dll
+Dependency assembly - System.Reactive.Windows.Threading.dll
+Dependency assembly - System.ServiceModel.Duplex.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Threading.Timer.dll
+Dependency assembly - System.AppContext.dll
+Dependency assembly - System.ServiceModel.Security.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - Microsoft.VisualC.dll
+Dependency assembly - System.Text.RegularExpressions.dll
+Dependency assembly - System.Runtime.InteropServices.dll
+Dependency assembly - System.Configuration.Install.dll
+Dependency assembly - monodoc.dll
+Dependency assembly - System.Security.Cryptography.Algorithms.dll
+Dependency assembly - Mono.Parallel.dll
+Dependency assembly - System.Threading.Thread.dll
+Dependency assembly - System.IdentityModel.dll
+Dependency assembly - Microsoft.Build.dll
+Dependency assembly - System.Windows.dll
+Dependency assembly - IBM.Data.DB2.dll
+Dependency assembly - System.Threading.Tasks.Parallel.dll
+Dependency assembly - System.Net.Http.WebRequest.dll
+Dependency assembly - System.IO.Hashing.dll
+Dependency assembly - System.Net.Sockets.dll
+Dependency assembly - System.Runtime.CompilerServices.VisualC.dll
+Dependency assembly - System.Data.SqlClient.dll
+Dependency assembly - System.Diagnostics.DiagnosticSource.dll
+Dependency assembly - System.Net.Security.dll
+Dependency assembly - System.Linq.Queryable.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+Dependency assembly - Microsoft.CSharp.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.Web.RegularExpressions.dll
+Dependency assembly - System.ComponentModel.Primitives.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - SMDiagnostics.dll
+Dependency assembly - System.Net.WebSockets.Client.dll
+Dependency assembly - System.IdentityModel.Selectors.dll
+Dependency assembly - System.ComponentModel.DataAnnotations.dll
+Dependency assembly - WindowsBase.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.Web.Razor.dll
+Dependency assembly - System.Json.Microsoft.dll
+Dependency assembly - System.Runtime.Handles.dll
+Dependency assembly - Novell.Directory.Ldap.dll
+Dependency assembly - System.Reflection.Context.dll
+Dependency assembly - System.Globalization.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.dll
+Dependency assembly - System.Net.Requests.dll
+Dependency assembly - System.Security.Cryptography.RandomNumberGenerator.dll
+Dependency assembly - System.Xml.XmlSerializer.dll
+Dependency assembly - System.Reactive.Providers.dll
+Dependency assembly - System.DirectoryServices.dll
+
+Total cache size 268375576
+Total cache size after purge 268375576, took 00:00:00.5005590
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Player9899abac.dag" --profile="Library/Bee/backend1.traceevents" Player
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+DisplayProgressbar: Incremental Player Build
+[122/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map
+[123/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/config
+[124/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map
+[125/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/app.info
+[126/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml
+[127/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/web.config
+[128/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/browscap.ini
+[129/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+[130/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config
+[131/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/web.config
+[132/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+[133/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config
+[134/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+[135/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map
+[136/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/web.config
+[137/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/UnityCrashHandler64.exe
+[138/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+[139/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+[140/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll
+[141/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/RuntimeInitializeOnLoads.json
+[142/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/sharedassets0.resource
+[143/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/ScriptingAssemblies.json
+[144/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity.exe
+[145/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/sharedassets0.assets
+[146/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/globalgamemanagers.assets
+[147/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+[148/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Resources/unity_builtin_extra
+[149/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/level0.resS
+[150/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/globalgamemanagers
+[151/400    0s] CopyFilWorker ready: AssetImportWorkerHW0 0
+es D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/sharedassets0.assets.resS
+[152/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/dstorage.dll
+[153/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/level0
+[154/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config
+[155/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/dstoragecore.dll
+[156/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/globalgamemanagers.assets.resS
+[157/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/D3D12/D3D12Core.dll
+[158/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Resources/unity default resources
+[159/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+[160/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/UnityPlayer.dll
+[161/400    0s] AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config
+[162/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/boot.config
+[163/400    3s] UnityLinker D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject/Library/Bee/artifacts/unitylinker_dwek.traceevents
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\13225651061976780420.rsp
+[191/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.DirectorModule.dll
+[192/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Xml.Linq.dll
+[197/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Net.Http.dll
+[198/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.InsightsModule.dll
+[199/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/Unity.Scripting.dll
+[200/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.VehiclesModule.dll
+[201/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.DSPGraphModule.dll
+[202/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Numerics.dll
+[204/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Reflection.Metadata.dll
+[209/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Security.dll
+[212/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.ComponentModel.Composition.dll
+[213/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ClusterRendererModule.dll
+[214/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/Unity.InternalAPIEngineBridge.004.dll
+[215/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ImageConversionModule.dll
+[216/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+[217/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ManagedKernelModule.dll
+[218/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TextRenderingModule.dll
+[219/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AccessibilityModule.dll
+[220/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+[221/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.JSONSerializeModule.dll
+[222/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.PhysicsCore2DModule.dll
+[223/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.HierarchyCoreModule.dll
+[224/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.EnterpriseServices.dll
+[225/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TerrainModule.dll
+[226/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.PhysicsModule.dll
+[228/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TilemapModule.dll
+[231/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ClothModule.dll
+[232/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.InputModule.dll
+[235/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.VideoModule.dll
+[236/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AudioModule.dll
+[237/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.IMGUIModule.dll
+[238/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UmbraModule.dll
+[239/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ARModule.dll
+[241/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.XRModule.dll
+[242/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UIModule.dll
+[243/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.BurstModule.dll
+[244/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Configuration.dll
+[245/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.GIModule.dll
+[256/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AIModule.dll
+[265/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/netstandard.dll
+[278/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.dll
+[280/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Core.dll
+[282/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Memory.dll
+[283/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/Mono.Security.dll
+[285/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+[286/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll
+[287/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Data.dll
+[288/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Transactions.dll
+[289/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll
+[290/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.dll
+[291/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll
+[293/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.HierarchyModule.dll
+[294/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll
+[295/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Xml.dll
+[296/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ScriptingModule.dll
+[298/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.HotReloadModule.dll
+[299/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AnimationModule.dll
+[300/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.StreamingModule.dll
+[302/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.SubstanceModule.dll
+[303/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityCurlModule.dll
+[304/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.Physics2DModule.dll
+[305/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityConnectModule.dll
+[306/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/Unity.TextMeshPro.dll
+[307/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.LocalizationModule.dll
+[308/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ClusterInputModule.dll
+[309/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.SubsystemsModule.dll
+[311/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityConsentModule.dll
+[321/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+[322/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.InputForUIModule.dll
+[327/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Collections.Immutable.dll
+[328/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.PropertiesModule.dll
+[329/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/mscorlib.dll
+[331/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AndroidJNIModule.dll
+[332/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.GameCenterModule.dll
+[333/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UIElementsModule.dll
+[334/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Runtime.Serialization.dll
+[335/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll
+[336/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.U2DRuntimeModule.dll
+[337/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.SpriteMaskModule.dll
+[338/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+[339/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.RenderAs2DModule.dll
+[343/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Buffers.dll
+[344/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Drawing.dll
+[345/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UI.dll
+[346/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/Echoes.Runtime.dll
+[347/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+[348/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.VectorGraphicsModule.dll
+[349/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ParticleSystemModule.dll
+[350/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+[351/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.CrashReportingModule.dll
+[352/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.IO.Compression.FileSystem.dll
+[353/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+[354/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+[355/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TimelineFoundationModule.dll
+[356/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+[359/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+[363/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+[366/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.ServiceModel.Internals.dll
+[376/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.MultiplayerModule.dll
+[377/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+[378/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.Data.DataSetExtensions.dll
+[379/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.MarshallingModule.dll
+[381/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.InputLegacyModule.dll
+[384/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.SpriteShapeModule.dll
+[385/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.MathematicsModule.dll
+[386/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AssetBundleModule.dll
+[387/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.ContentLoadModule.dll
+[388/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.WindModule.dll
+[389/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.IdentifiersModule.dll
+[390/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.GridModule.dll
+[391/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+[392/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.AMDModule.dll
+[393/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.CoreModule.dll
+[394/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.VFXModule.dll
+[395/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/System.IO.Compression.dll
+[396/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TLSModule.dll
+[397/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.TetgenModule.dll
+[398/400    0s] CopyFiles D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity_Data/Managed/UnityEngine.NVIDIAModule.dll
+[399/400    0s] ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Echoes.Runtime-FeaturesChecked.txt
+*** Tundra requires additional run (4.23 seconds), 161 items updated, 400 evaluated
+*** Additional run caused by: timestamp change of Library/Bee/artifacts/WinPlayerBuildProgram/Features/Echoes.Runtime-FeaturesChecked.txt
+ExitCode: 4 Duration: 4s289ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\WinPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Bee;C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player9899abac.dag.json" "Library/Bee/Player9899abac-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+ExitCode: 0 Duration: 0s569ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --dagfile="Library/Bee/Player9899abac.dag" --dagfilejson="Library\Bee\Player9899abac.dag.json" --profile="Library/Bee/backend2.traceevents" Player
+WorkingDir: D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/UnityProject
+Finished compiling graph: 402 nodes, 1036 flattened edges (1036 ToBuild, 0 ToUse), maximum node priority 243
+*** Tundra build success (0.12 seconds), 0 items updated, 400 evaluated
+ExitCode: 0 Duration: 0s159ms
+
+-------------------------------------------------------------------------------
+Build Report
+Information on used Assets is not available, since player data was not rebuilt.
+Do a clean build to view the Asset build report information.
+-------------------------------------------------------------------------------
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.9 MB). Loaded Objects now: 1650.
+Memory consumption went from 241.6 MB to 240.8 MB.
+Total: 8.003400 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.048700 ms MarkObjects: 6.966400 ms  DeleteObjects: 0.503400 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.237 ms
+	Integration:            14.934 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   17.208 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1649.
+Memory consumption went from 238.1 MB to 238.1 MB.
+Total: 6.207900 ms (FindLiveObjects: 0.210200 ms CreateObjectMapping: 0.023400 ms MarkObjects: 5.789900 ms  DeleteObjects: 0.006900 ms)
+
+##utp:{"success":true,"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1795263035441,"processId":35228,"steps":[{"description":"Call PrepareForBuild callbacks","duration":1},{"description":"Call internal build started callbacks","duration":1},{"description":"Preprocess Player","duration":24},{"description":"Save scenes before build","duration":0},{"description":"Prepare For Build","duration":11},{"description":"ProducePlayerScriptAssemblies","duration":2408},{"description":"Verify Build setup","duration":293},{"description":"Prepare assets for target platform","duration":8},{"description":"Prepare splash screen","duration":5},{"description":"Run script only build","duration":44},{"description":"Build scripts DLLs","duration":81},{"description":"Postprocess built player","duration":5501},{"description":"Call Post-Process callbacks","duration":28}],"duration":8405}
+Total cache size 268375576
+Total cache size after purge 268375576, took 00:00:00.4429043
+[EchoesBuild] Echoes of Eternity build report
+Date:        2026-11-21 17:10:35
+Unity:       6000.6.0f1
+Target:      StandaloneWindows64
+Result:      Succeeded
+Output:      D:/Nabeel data/EchoesOfEternity_20261121_160903_344691/Builds/Windows/EchoesOfEternity.exe
+Size (MB):   94.5
+Duration:    00:00:08.6675853
+Errors:      0
+Warnings:    0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Echoes.Editor.BuildGame:BuildInternal () (at Assets/Editor/EchoesBuild.cs:108)
+Echoes.Editor.BuildGame:Build () (at Assets/Editor/EchoesBuild.cs:30)
+
+(Filename: Assets/Editor/EchoesBuild.cs Line: 108)
+
+[EchoesBuild] BUILD_RESULT: Succeeded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Echoes.Editor.BuildGame:BuildInternal () (at Assets/Editor/EchoesBuild.cs:109)
+Echoes.Editor.BuildGame:Build () (at Assets/Editor/EchoesBuild.cs:30)
+
+(Filename: Assets/Editor/EchoesBuild.cs Line: 109)
+
+MonoPathRemapper: Attempts to remap: 28781; Successful remaps: 284
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-HP-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-HP channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000008854, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008858, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008854, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008858, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3756
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795263038211,"processId":35228,"allocatedMemory":12057620,"memoryLabels":[{"Default":180591},{"Permanent":15516},{"NewDelete":70759},{"Thread":4205720},{"Manager":34245},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":848026},{"Material":24},{"GfxDevice":58008},{"Animation":952},{"Audio":1272},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16768},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":1243480},{"BaseObject":49168},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":4416},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1247831},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":8448},{"VR":49650},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":98299},{"VersionControl":8},{"Undo":931},{"AssetDatabase":676824},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40441},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":176},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3594},{"Windowing":456},{"Licensing":1264},{"AssetReference":32},{"IPCStream":32}]}

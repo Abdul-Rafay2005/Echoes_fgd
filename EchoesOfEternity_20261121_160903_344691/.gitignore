@@ -1,0 +1,12 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+UserSettings/
+Build/
+Builds/
+.vs/
+*.csproj
+*.sln
+*.user
+.DS_Store

@@ -1,0 +1,80 @@
+newmtl EE_Moss
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/moss.png
+
+newmtl EE_Stone
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/stone.png
+
+newmtl EE_Blue
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/blue.png
+
+newmtl EE_Gold
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/gold.png
+
+newmtl EE_Wood
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/wood.png
+
+newmtl EE_Shadow
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/shadow.png
+
+newmtl EE_Brass
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/brass.png
+
+newmtl EE_Danger
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/danger.png
+
+newmtl EE_Parchment
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+illum 2
+map_Kd ../Textures/parchment.png

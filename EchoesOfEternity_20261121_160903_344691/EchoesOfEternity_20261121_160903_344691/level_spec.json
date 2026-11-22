@@ -1,0 +1,85 @@
+{
+  "game": "Echoes of Eternity",
+  "timelines": [
+    "present",
+    "past"
+  ],
+  "start": {
+    "area": "hub",
+    "timeline": "present"
+  },
+  "keys": [
+    "sun",
+    "leaf",
+    "wave"
+  ],
+  "rune_sequence": [
+    "sun",
+    "wave",
+    "leaf"
+  ],
+  "areas": [
+    {
+      "id": "hub",
+      "checkpoint": true,
+      "shared_floor": true
+    },
+    {
+      "id": "rune_gallery",
+      "reward": "sun",
+      "clue_timeline": "past",
+      "console_timeline": "present"
+    },
+    {
+      "id": "spike_passage",
+      "reward": "leaf",
+      "entry_timeline": "past",
+      "permanent_return_on_reward": true
+    },
+    {
+      "id": "platform_chamber",
+      "reward": "wave",
+      "entry_timeline": "past",
+      "reward_container": "chest",
+      "permanent_return_on_reward": true
+    },
+    {
+      "id": "heart_chamber",
+      "requires": [
+        "sun",
+        "leaf",
+        "wave"
+      ]
+    },
+    {
+      "id": "exit",
+      "requires": [
+        "heart"
+      ],
+      "timeline": "either"
+    }
+  ],
+  "connections": [
+    [
+      "hub",
+      "rune_gallery"
+    ],
+    [
+      "hub",
+      "spike_passage"
+    ],
+    [
+      "hub",
+      "platform_chamber"
+    ],
+    [
+      "hub",
+      "heart_chamber"
+    ],
+    [
+      "hub",
+      "exit"
+    ]
+  ],
+  "note": "Topology for the coding agent; not a generated Unity scene."
+}

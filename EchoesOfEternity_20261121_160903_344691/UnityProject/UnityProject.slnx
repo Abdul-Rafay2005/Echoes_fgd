@@ -1,0 +1,4 @@
+﻿<Solution>
+  <Project Path="Echoes.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

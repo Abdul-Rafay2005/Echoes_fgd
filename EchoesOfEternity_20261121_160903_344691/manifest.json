@@ -1,0 +1,959 @@
+{
+  "name": "Echoes of Eternity",
+  "type": "Procedural starter assets and coding-agent implementation brief",
+  "unity_import": "NOT RUN",
+  "unity_compilation": "NOT RUN",
+  "gameplay_validation": "NOT RUN",
+  "models": [
+    {
+      "name": "floor_clean",
+      "path": "Assets/_Echoes/Art/Models/floor_clean.obj",
+      "triangles": 12,
+      "bounds_min": [
+        -1.0,
+        -0.3,
+        -1.0
+      ],
+      "bounds_max": [
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "floor_moss",
+      "path": "Assets/_Echoes/Art/Models/floor_moss.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -1.0,
+        -0.3,
+        -1.0
+      ],
+      "bounds_max": [
+        1.0,
+        0.016,
+        1.0
+      ]
+    },
+    {
+      "name": "wall_clean",
+      "path": "Assets/_Echoes/Art/Models/wall_clean.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -1.05,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        1.05,
+        3.0,
+        0.3
+      ]
+    },
+    {
+      "name": "wall_ruined",
+      "path": "Assets/_Echoes/Art/Models/wall_ruined.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -1.05,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        1.05,
+        2.3,
+        0.3
+      ]
+    },
+    {
+      "name": "pillar",
+      "path": "Assets/_Echoes/Art/Models/pillar.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -0.475
+      ],
+      "bounds_max": [
+        0.475,
+        3.0,
+        0.475
+      ]
+    },
+    {
+      "name": "pillar_broken",
+      "path": "Assets/_Echoes/Art/Models/pillar_broken.obj",
+      "triangles": 32,
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -0.475
+      ],
+      "bounds_max": [
+        0.475,
+        1.44,
+        0.475
+      ]
+    },
+    {
+      "name": "archway",
+      "path": "Assets/_Echoes/Art/Models/archway.obj",
+      "triangles": 132,
+      "bounds_min": [
+        -1.925,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        1.925,
+        4.925,
+        0.35
+      ]
+    },
+    {
+      "name": "stairs",
+      "path": "Assets/_Echoes/Art/Models/stairs.obj",
+      "triangles": 60,
+      "bounds_min": [
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "bounds_max": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "moving_platform",
+      "path": "Assets/_Echoes/Art/Models/moving_platform.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -1.2,
+        -0.4,
+        -1.2
+      ],
+      "bounds_max": [
+        1.2,
+        0.024,
+        1.2
+      ]
+    },
+    {
+      "name": "platform_rail",
+      "path": "Assets/_Echoes/Art/Models/platform_rail.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -0.09,
+        0.0,
+        -1.0
+      ],
+      "bounds_max": [
+        0.09,
+        0.8,
+        1.0
+      ]
+    },
+    {
+      "name": "door_frame",
+      "path": "Assets/_Echoes/Art/Models/door_frame.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -1.5,
+        0.0,
+        -0.325
+      ],
+      "bounds_max": [
+        1.5,
+        3.25,
+        0.325
+      ]
+    },
+    {
+      "name": "door_panel",
+      "path": "Assets/_Echoes/Art/Models/door_panel.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -1.05,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        1.05,
+        2.8,
+        0.22
+      ]
+    },
+    {
+      "name": "door_lock",
+      "path": "Assets/_Echoes/Art/Models/door_lock.obj",
+      "triangles": 168,
+      "bounds_min": [
+        -0.1975,
+        0.0,
+        -0.06
+      ],
+      "bounds_max": [
+        0.1975,
+        0.6375,
+        0.08
+      ]
+    },
+    {
+      "name": "chest_base",
+      "path": "Assets/_Echoes/Art/Models/chest_base.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.4
+      ],
+      "bounds_max": [
+        0.6,
+        0.6,
+        0.465
+      ]
+    },
+    {
+      "name": "chest_lid",
+      "path": "Assets/_Echoes/Art/Models/chest_lid.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -0.62,
+        0.0,
+        -0.02
+      ],
+      "bounds_max": [
+        0.62,
+        0.2425,
+        0.82
+      ]
+    },
+    {
+      "name": "key_sun",
+      "path": "Assets/_Echoes/Art/Models/key_sun.obj",
+      "triangles": 420,
+      "bounds_min": [
+        -0.1825,
+        0.0,
+        -0.0275
+      ],
+      "bounds_max": [
+        0.1825,
+        0.9025,
+        0.0486
+      ]
+    },
+    {
+      "name": "rune_sun",
+      "path": "Assets/_Echoes/Art/Models/rune_sun.obj",
+      "triangles": 252,
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        0.4,
+        1.1,
+        0.1725
+      ]
+    },
+    {
+      "name": "key_leaf",
+      "path": "Assets/_Echoes/Art/Models/key_leaf.obj",
+      "triangles": 216,
+      "bounds_min": [
+        -0.1825,
+        0.0,
+        -0.0275
+      ],
+      "bounds_max": [
+        0.1825,
+        0.9025,
+        0.0467
+      ]
+    },
+    {
+      "name": "rune_leaf",
+      "path": "Assets/_Echoes/Art/Models/rune_leaf.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        0.4,
+        1.1,
+        0.1675
+      ]
+    },
+    {
+      "name": "key_wave",
+      "path": "Assets/_Echoes/Art/Models/key_wave.obj",
+      "triangles": 252,
+      "bounds_min": [
+        -0.1825,
+        0.0,
+        -0.0275
+      ],
+      "bounds_max": [
+        0.1825,
+        0.9025,
+        0.0467
+      ]
+    },
+    {
+      "name": "rune_wave",
+      "path": "Assets/_Echoes/Art/Models/rune_wave.obj",
+      "triangles": 84,
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        0.4,
+        1.1,
+        0.1675
+      ]
+    },
+    {
+      "name": "heart",
+      "path": "Assets/_Echoes/Art/Models/heart.obj",
+      "triangles": 12,
+      "bounds_min": [
+        -0.36,
+        0.0,
+        -0.3118
+      ],
+      "bounds_max": [
+        0.36,
+        1.1,
+        0.3118
+      ]
+    },
+    {
+      "name": "heart_pedestal",
+      "path": "Assets/_Echoes/Art/Models/heart_pedestal.obj",
+      "triangles": 84,
+      "bounds_min": [
+        -1.15,
+        0,
+        -1.15
+      ],
+      "bounds_max": [
+        1.15,
+        0.97,
+        1.15
+      ]
+    },
+    {
+      "name": "hourglass",
+      "path": "Assets/_Echoes/Art/Models/hourglass.obj",
+      "triangles": 160,
+      "bounds_min": [
+        -0.25,
+        0.04,
+        -0.25
+      ],
+      "bounds_max": [
+        0.25,
+        0.78,
+        0.25
+      ]
+    },
+    {
+      "name": "spike_base",
+      "path": "Assets/_Echoes/Art/Models/spike_base.obj",
+      "triangles": 84,
+      "bounds_min": [
+        -1.0,
+        -0.2,
+        -1.0
+      ],
+      "bounds_max": [
+        1.0,
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "name": "spikes",
+      "path": "Assets/_Echoes/Art/Models/spikes.obj",
+      "triangles": 144,
+      "bounds_min": [
+        -0.7375,
+        0,
+        -0.7617
+      ],
+      "bounds_max": [
+        0.77,
+        0.85,
+        0.7617
+      ]
+    },
+    {
+      "name": "pressure_plate",
+      "path": "Assets/_Echoes/Art/Models/pressure_plate.obj",
+      "triangles": 48,
+      "bounds_min": [
+        -0.75,
+        0.0,
+        -0.75
+      ],
+      "bounds_max": [
+        0.75,
+        0.18,
+        0.75
+      ]
+    },
+    {
+      "name": "torch",
+      "path": "Assets/_Echoes/Art/Models/torch.obj",
+      "triangles": 52,
+      "bounds_min": [
+        -0.23,
+        0.0,
+        -0.23
+      ],
+      "bounds_max": [
+        0.23,
+        1.2,
+        0.23
+      ]
+    },
+    {
+      "name": "checkpoint",
+      "path": "Assets/_Echoes/Art/Models/checkpoint.obj",
+      "triangles": 40,
+      "bounds_min": [
+        -0.55,
+        0,
+        -0.55
+      ],
+      "bounds_max": [
+        0.55,
+        0.825,
+        0.55
+      ]
+    },
+    {
+      "name": "key_pedestal",
+      "path": "Assets/_Echoes/Art/Models/key_pedestal.obj",
+      "triangles": 52,
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "bounds_max": [
+        0.4,
+        0.93,
+        0.4
+      ]
+    },
+    {
+      "name": "rubble",
+      "path": "Assets/_Echoes/Art/Models/rubble.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.525
+      ],
+      "bounds_max": [
+        0.525,
+        0.6,
+        0.425
+      ]
+    },
+    {
+      "name": "vine",
+      "path": "Assets/_Echoes/Art/Models/vine.obj",
+      "triangles": 160,
+      "bounds_min": [
+        -0.3208,
+        0.015,
+        -0.085
+      ],
+      "bounds_max": [
+        0.3499,
+        1.825,
+        0.115
+      ]
+    },
+    {
+      "name": "fern",
+      "path": "Assets/_Echoes/Art/Models/fern.obj",
+      "triangles": 64,
+      "bounds_min": [
+        -0.32,
+        0.04,
+        -0.32
+      ],
+      "bounds_max": [
+        0.32,
+        0.42,
+        0.32
+      ]
+    },
+    {
+      "name": "emblem",
+      "path": "Assets/_Echoes/Art/Models/emblem.obj",
+      "triangles": 240,
+      "bounds_min": [
+        -0.375,
+        0.025,
+        -0.0225
+      ],
+      "bounds_max": [
+        0.375,
+        0.775,
+        0.0225
+      ]
+    },
+    {
+      "name": "bridge_2m",
+      "path": "Assets/_Echoes/Art/Models/bridge_2m.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -1.0,
+        -0.36,
+        -1.0
+      ],
+      "bounds_max": [
+        1.0,
+        0.02,
+        1.0
+      ]
+    },
+    {
+      "name": "wood_crate",
+      "path": "Assets/_Echoes/Art/Models/wood_crate.obj",
+      "triangles": 36,
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "bounds_max": [
+        0.4,
+        0.8,
+        0.43
+      ]
+    }
+  ],
+  "world_textures": 9,
+  "ui_icons": 12,
+  "sounds": 13,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 104,
+      "sha256": "da4d08113d03630be563a49a7a8a03c06ea644dd49029345c33620553b4c6330"
+    },
+    {
+      "path": "ASSET_CREDITS.md",
+      "bytes": 311,
+      "sha256": "afa7583fad79ebdbe9e0fb50689c53329f1b424e6599a2c8450a7be1d22e735b"
+    },
+    {
+      "path": "ASSET_GUIDE.md",
+      "bytes": 3239,
+      "sha256": "0487ab4b1aaa2ea56e588b0b13092b6dd5cb57bf20b940294747f68285bcf9ab"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/archway.obj",
+      "bytes": 19743,
+      "sha256": "12ed1882a5df3c73c182389f68016c8637af662bec489f5a0f028fb7dcbe3d62"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/bridge_2m.obj",
+      "bytes": 5335,
+      "sha256": "69aec40d18a7a8e0163ded7864f9c275dceba459a6b35a3bd57fb6f2d547308d"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/checkpoint.obj",
+      "bytes": 5968,
+      "sha256": "2d67482302ca99c40aa708149cbe1ba2717e5a590be628cf36d11d6c4ec963be"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/chest_base.obj",
+      "bytes": 7016,
+      "sha256": "919b6bf7bd2eac0001713de2cc1a5db37a26e383d331590dee261c884500c5ef"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/chest_lid.obj",
+      "bytes": 5311,
+      "sha256": "c84d5b9da44fe63e1a000bd2ed93012ef491325f093082b7fdad23687cb00a22"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/door_frame.obj",
+      "bytes": 5297,
+      "sha256": "97ea2a467309384fdcacebedf8a36117aa7b847d3029193bd64a2fe068d1168f"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/door_lock.obj",
+      "bytes": 25195,
+      "sha256": "d1549a4c6b806eab13385424182a69659170fc8d00d0bc4c68ce4f36e1be96c9"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/door_panel.obj",
+      "bytes": 7016,
+      "sha256": "7c515475fd6eefb129b169863f9f6d7b07878e8318772852641685970904252d"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/emblem.obj",
+      "bytes": 36068,
+      "sha256": "e50f73e54caba3e995fac6fb4691d735b68eaa2a679b693efa4c50647a827b4e"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/fern.obj",
+      "bytes": 11412,
+      "sha256": "7467ef6491f547eb923a2a2ba1f286ccb58ab70eb57b90a079819781980294db"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/floor_clean.obj",
+      "bytes": 1833,
+      "sha256": "272e2dbe973628b082042e2abdd8e47c9fa5711c9c387dc349655087a6c16c79"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/floor_moss.obj",
+      "bytes": 7112,
+      "sha256": "74af0d0adc62ed167710614b7e26728f6e4b27e3e2c41d81fe03636fd762117a"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/heart.obj",
+      "bytes": 2135,
+      "sha256": "2729fd6f16ad72c375d9ddd878b8d889689630596726aa2771e4db679dd81392"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/heart_pedestal.obj",
+      "bytes": 11721,
+      "sha256": "faa810d4948eb7dcd1f9809fc5920b90bb8bd02fad335a330e294eb7a477f393"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/hourglass.obj",
+      "bytes": 22940,
+      "sha256": "916c8ceaf323a2b6639c375871da30720a3cf59cb2653d8ec91f706cdc22ed3d"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/key_leaf.obj",
+      "bytes": 32329,
+      "sha256": "7f73668f922fe0ea8fc5074c4631ff20478a66945d1734d5d1335d4294b60715"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/key_pedestal.obj",
+      "bytes": 7428,
+      "sha256": "e4b96dbf88da8bfac59eaf112c3c6af38002daf52774b24c57ce8ea9efc07ffc"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/key_sun.obj",
+      "bytes": 62961,
+      "sha256": "db6effcc46e8d2fed248281abf68748a2f4f7dda1bd4a48ae81e3d72624cfb95"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/key_wave.obj",
+      "bytes": 37693,
+      "sha256": "cd37c3dd1147a03b05082211a96a413912d652213d51b21f95c33766af59a3ff"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/moving_platform.obj",
+      "bytes": 5341,
+      "sha256": "46199fa42e9a190ca08c0a19f1dd98b1fe0d62527a90d523b9b2510016acc1fe"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/palette.mtl",
+      "bytes": 903,
+      "sha256": "c537988cba5b43be262e39abaae83130a106487026db19c04db1a6e39ba3550f"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/pillar.obj",
+      "bytes": 5293,
+      "sha256": "7050ba996595367bf0ec013f5bc7da49128a4e327a18b886547cbef6b5863a96"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/pillar_broken.obj",
+      "bytes": 4927,
+      "sha256": "67da150a4f3cda01170d94b09cd66e0295237cb87bcc866bc12234b9efef0ed8"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/platform_rail.obj",
+      "bytes": 5300,
+      "sha256": "cc85df55fe1f3b0cc4c1f6741ed7aaa1e56f658a55cad9e2a3045c13cb3c6d43"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/pressure_plate.obj",
+      "bytes": 7109,
+      "sha256": "b20ffbbb5091c8ab09ea63e1d4a1aba3ee9ffd15b08b25632a77bd4c783f4ac7"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/rubble.obj",
+      "bytes": 5293,
+      "sha256": "d6908b33e6acf7e96f481ad44562c7416238642e09cdbba2a1307f4fad2f1246"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/rune_leaf.obj",
+      "bytes": 7016,
+      "sha256": "51681c28a0cbec488e5ddabf927c0393c6eaa2dcd4faf9561669e651d9f146f5"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/rune_sun.obj",
+      "bytes": 37418,
+      "sha256": "72e54942fe8c15a3af82409c69ea3da972de43c9dd5211b1f8a81bf9438fef7f"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/rune_wave.obj",
+      "bytes": 12375,
+      "sha256": "b0ccc22463c7b368967a03cf7c0a8a0f21b9209072e5fe3ad29044b293a25e29"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/spike_base.obj",
+      "bytes": 12546,
+      "sha256": "c527dc5f6ed677fb76dd05f1244a792db80a055cdfca9bb03c1fc747e8f88271"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/spikes.obj",
+      "bytes": 20975,
+      "sha256": "16cc67b8a541b7a27a0a7e2d242ffaec287db50c25920da03a4c66504015fa12"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/stairs.obj",
+      "bytes": 8876,
+      "sha256": "9d856fcdc2e069f6fdbdcc3fc042b95b6415b62a4d1b8fd47d3441217bfce7bf"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/torch.obj",
+      "bytes": 7772,
+      "sha256": "4267ff767e4fab6879eea6afbe3a90c75a78f756db371fa7742744a7ec9ddf3c"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/vine.obj",
+      "bytes": 25779,
+      "sha256": "f92261b07a00640d199ea356262ef4214e7e35cc8bc33f53c393d6574d680b9c"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/wall_clean.obj",
+      "bytes": 5314,
+      "sha256": "67c1a4f4a4839df097c60aff4944bd55c77a1df5ec3351e5fb7c9fe28b03e33b"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/wall_ruined.obj",
+      "bytes": 7091,
+      "sha256": "a7e6cd2571d5ed7e7400a93453c6d46599dca78f4c7dc8d4055509be63cd2655"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Models/wood_crate.obj",
+      "bytes": 5264,
+      "sha256": "7c3498319a58e50edd1760c991ee4dc71c6588317b5fd6df43551736e15e96d6"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/blue.png",
+      "bytes": 837,
+      "sha256": "b811ad38c82ecaeba01b4bdcfa990da5e50ecf064a7033ae968645d3091eb98b"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/brass.png",
+      "bytes": 893,
+      "sha256": "203d1781735e62e72d31e7d535e02fc518fa0c3e31af1bce3fe2730ca819f396"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/danger.png",
+      "bytes": 854,
+      "sha256": "59ce35bc7cbe0a17ac3d3e69eb58cfb2688d28aa95c1f2063a322d4e9f199a21"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/gold.png",
+      "bytes": 808,
+      "sha256": "7d49d4f87bd12837542abf3b1b904385a05fe02a6b7ac49eb3cdac19b612d3a9"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/moss.png",
+      "bytes": 942,
+      "sha256": "b3589a9b5d0c7dd6c3e5624d8500110d04b863a6edf6fe33f5c05f7833ca4c97"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/parchment.png",
+      "bytes": 821,
+      "sha256": "63690f608957c144c4f21feda50b0b82fe4b6b3b5e9cb55f7e3a6e90f9c28d57"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/shadow.png",
+      "bytes": 1398,
+      "sha256": "6a13820d4b0a8b23d1fe57484668cdaab3a99331da3222c4db258b8a30be01ef"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/stone.png",
+      "bytes": 1144,
+      "sha256": "c7e892c156d7054353991b1f3d664fc3e1f4cfe18357d4e6be928fd1741b78d1"
+    },
+    {
+      "path": "Assets/_Echoes/Art/Textures/wood.png",
+      "bytes": 1298,
+      "sha256": "8ae33303c86b63cda12be16291890a72ef111ca481dad9eacca9302992cfd5c8"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/crosshair.png",
+      "bytes": 395,
+      "sha256": "8e0f29630c6c8c7a244fa06e53401154f5556bbb823342297d575f2281ac9308"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/health.png",
+      "bytes": 852,
+      "sha256": "ae14ab59cac68ba55eaaf93f68384aeaf6ad7a47453aa844d8fa18bf45ac286c"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/heart.png",
+      "bytes": 654,
+      "sha256": "fbf589e96c3f3fa37f7031dcfb0ef66e139a1f6663083ea6fe8e584887542a31"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/hourglass.png",
+      "bytes": 701,
+      "sha256": "e2653c6cde8cfc59769f54467a1d73f0299ba96e1622de993c872657b97ef117"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/interact.png",
+      "bytes": 417,
+      "sha256": "3d3c93a449c139e906590e6cbddc37e512be7b15282a5aacb541e5a6733ba80a"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/key.png",
+      "bytes": 649,
+      "sha256": "151e4c3fe996f7cdd3d7d6ce092a9cbe333b4cd13c963f7737481eabb145c109"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/leaf.png",
+      "bytes": 763,
+      "sha256": "cf08a623d8e1807e76a66214846a5c198515412c34100a3440113288a56f895a"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/past.png",
+      "bytes": 840,
+      "sha256": "ba5e8b66834e25904a20e0afbb4a9ad1fe7fbbb71c30013c94acb9b8afbba764"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/present.png",
+      "bytes": 763,
+      "sha256": "cf08a623d8e1807e76a66214846a5c198515412c34100a3440113288a56f895a"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/sun.png",
+      "bytes": 842,
+      "sha256": "384a8778289f7638f6254c4ffb5c98d225ff00de54332eb3fd58a39f9573ba27"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/warning.png",
+      "bytes": 376,
+      "sha256": "6b50953f64570695de436f50c2e916ec272684f827dc9233ffdd1d8d2e739757"
+    },
+    {
+      "path": "Assets/_Echoes/Art/UI/wave.png",
+      "bytes": 1005,
+      "sha256": "4ed3975c1161be4f86d81ec2511fe0ef0db9a378b6b0de2ea2e11948bb772d6d"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/damage.wav",
+      "bytes": 13274,
+      "sha256": "8e02a616962eec7c8102680afea18b3dfadb4f4b0ac13e18ff77249ffd586c2d"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/defeat.wav",
+      "bytes": 79424,
+      "sha256": "8a4b3222aea182b171d90c57096ba0cd8b1f42113d88013c254d6ae5c940d1c3"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/door_open.wav",
+      "bytes": 70604,
+      "sha256": "24656fbf1cf0b455e2bbdc27c03088b5786def3774f2f536d517408cb86932dc"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/footstep.wav",
+      "bytes": 6218,
+      "sha256": "2aae4a29647e168508e3ff9b70eb702b41911b5294890aa529aa613b99ce9ece"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/heart_pickup.wav",
+      "bytes": 75014,
+      "sha256": "02e5671388ba0a2b7b2cd135d923e74b18f13c3dd0f6a432f2bafdad9ed86a97"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/interact.wav",
+      "bytes": 8864,
+      "sha256": "01a86a061da7cf39009fdc5c642f91f0d766cd9c074c14cd9f68b8acc18e178d"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/key_pickup.wav",
+      "bytes": 30912,
+      "sha256": "5ef99f382fe35cf91bfdc7345e2f1228b26652edb4910b896d34bc8fcae1f379"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/platform_move.wav",
+      "bytes": 61782,
+      "sha256": "886d18d3f2b349c31b4ba66ddbb4507975f1a4e620f6221913532ead415a21de"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/rune_solved.wav",
+      "bytes": 48554,
+      "sha256": "05edc107f3c672effdb160b35a43bd6cbbb543c4da6185d368c9425bf21b8f9b"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/spike_warning.wav",
+      "bytes": 17684,
+      "sha256": "27c640fd569e0cb409b30c386426ce8806af3c88f5c5e683f5a429ac4e777526"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/temple_ambience.wav",
+      "bytes": 352844,
+      "sha256": "1fc066e4a8edc0fddb396773ddfbf4fc70a828fcd1c6a1d112ce649ae73d97e1"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/timeline_switch.wav",
+      "bytes": 44144,
+      "sha256": "007503beabae804e5c364ee4140b42bbde4e6cef32215cceb97d83ef613fd3fc"
+    },
+    {
+      "path": "Assets/_Echoes/Audio/victory.wav",
+      "bytes": 105884,
+      "sha256": "ebf28ec1cb25597325dc7f48acaf7ba4b4f7d51856b7c9d48e6e799e61f984ad"
+    },
+    {
+      "path": "BUILD_BRIEF.md",
+      "bytes": 10752,
+      "sha256": "1119570a8c3fd7a113dfde16298d9e6aa454ceb695e7b39fe15d20b6a5982460"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2416,
+      "sha256": "d43ee7b30d0d33cd01a33542fe0832a92e146d7b99fb1b95ca640156c819a5bb"
+    },
+    {
+      "path": "STORYBOARD_PLAN.md",
+      "bytes": 928,
+      "sha256": "4f6645dd22373782f9d29748e9fedde777d5d75ed9b1cfd5dd017040b8166ec1"
+    },
+    {
+      "path": "TEST_PLAN.md",
+      "bytes": 2906,
+      "sha256": "244f53d7001a5231db88c189b5c27a71f85e2b3386a5a8d263809787a2582c0e"
+    },
+    {
+      "path": "level_spec.json",
+      "bytes": 1356,
+      "sha256": "4bc2fb5e72accd179c985460c339b61da731a97222058c917ed2489a85c51c7b"
+    },
+    {
+      "path": "palette.json",
+      "bytes": 203,
+      "sha256": "744f11a5cbf4e1a2f6fe3efa7d3357a9767ecd510d0d15f190369efad6304662"
+    },
+    {
+      "path": "tools/make_echoes_pack.py",
+      "bytes": 43906,
+      "sha256": "56f08bd9da098df7bf0b51a9d51375c6efbaf26f79c993e15a7d7e8523fbe142"
+    }
+  ]
+}
